@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Surface } from "./surface";
-import { Section } from "../components/layout/section";
 import { Container } from "../components/layout/container";
+import { Section } from "../components/layout/section";
 
 export function CTASection() {
   return (
@@ -14,15 +14,22 @@ export function CTASection() {
             </h2>
 
             <p className="mt-6 text-lg text-muted-foreground">
-              Let's discuss your goals and create solutions that drive measurable business growth.
+              Let's discuss your goals and create solutions that drive
+              measurable business growth.
             </p>
 
-            <Button
-              size="lg"
-              className="mt-10"
-            >
-              Start a Project
-            </Button>
+            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+              <Button size="lg">
+                Start Project
+              </Button>
+
+              <Button
+                variant="outline"
+                size="lg"
+              >
+                Schedule Consultation
+              </Button>
+            </div>
           </div>
         </Surface>
       </Container>

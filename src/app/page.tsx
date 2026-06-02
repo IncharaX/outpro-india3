@@ -1,18 +1,17 @@
+import { AboutHero } from "../marketing/about-hero";
+import { CompanyStory } from "../marketing/company-story";
 import { CTASection } from "../marketing/cta-section";
-import { Hero } from "../marketing/hero";
-import { HeroMetrics } from "../marketing/hero-metrics";
-import { PortfolioPreview } from "../marketing/portfolio-preview";
-import { ServicesPreview } from "../marketing/services-preview";
-import { TestimonialsPreview } from "../marketing/testimonials-preview";
+import { Leadership } from "../marketing/leadership";
+import { MissionVisionValues } from "../marketing/mission-vision-values";
 
-export default function HomePage() {
+
+export default function AboutPage() {
   return (
     <>
-      <Hero/>
-      <HeroMetrics />
-      <ServicesPreview/>
-      <PortfolioPreview />
-      <TestimonialsPreview />
+      <AboutHero />
+      <CompanyStory />
+      <MissionVisionValues />
+      <Leadership />
       <CTASection />
     </>
   );

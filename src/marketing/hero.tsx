@@ -7,9 +7,9 @@ import { Container } from "../components/layout/container";
 
 export function Hero() {
   return (
-    <Section className="pt-20 md:pt-28">
+    <section className="bg-black text-white">
       <Container>
-        <div className="max-w-4xl">
+        <div className="max-w-5xl">
           <p className="mb-6 text-sm font-semibold uppercase tracking-[0.2em] text-primary">
             Modern Digital Solutions
           </p>
@@ -18,7 +18,7 @@ export function Hero() {
             Building digital experiences that help businesses grow.
           </h1>
 
-          <p className="mt-8 max-w-2xl text-lg leading-relaxed text-muted-foreground">
+          <p className="mt-8 max-w-2xl text-lg leading-relaxed text-zinc-400">
             We design, develop and scale high-performance digital products,
             websites and business solutions that create measurable impact.
           </p>
@@ -38,6 +38,6 @@ export function Hero() {
           </div>
         </div>
       </Container>
-    </Section>
+    </section>
   );
 }
