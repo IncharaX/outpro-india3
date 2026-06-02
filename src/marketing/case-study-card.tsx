@@ -12,7 +12,13 @@ export function CaseStudyCard({
   result,
 }: CaseStudyCardProps) {
   return (
-    <Surface className="overflow-hidden">
+    <Surface className="
+    overflow-hidden
+hover:-translate-y-2
+hover:shadow-xl
+transition-all
+duration-300
+">
       <div className="aspect-video bg-muted" />
 
       <div className="p-8">

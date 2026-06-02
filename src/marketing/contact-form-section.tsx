@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Surface } from "./surface";
 import { Container } from "../components/layout/container";
 import { Section } from "../components/layout/section";
+import { company } from "../constants/company";
 
 export function ContactFormSection() {
   return (
@@ -57,7 +58,7 @@ export function ContactFormSection() {
                 </p>
 
                 <p className="mt-2 text-muted-foreground">
-                  hello@outpro.com
+                  {company.email}
                 </p>
               </div>
 
@@ -67,7 +68,7 @@ export function ContactFormSection() {
                 </p>
 
                 <p className="mt-2 text-muted-foreground">
-                  +91 98765 43210
+                  {company.phone}
                 </p>
               </div>
 
@@ -77,7 +78,7 @@ export function ContactFormSection() {
                 </p>
 
                 <p className="mt-2 text-muted-foreground">
-                  Bengaluru, India
+                 {company.location}
                 </p>
               </div>
             </div>

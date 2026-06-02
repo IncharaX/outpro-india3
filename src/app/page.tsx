@@ -1,7 +1,7 @@
 import { AboutHero } from "../marketing/about-hero";
 import { CompanyStory } from "../marketing/company-story";
 import { CTASection } from "../marketing/cta-section";
-import { Leadership } from "../marketing/leadership";
+import { WhyChooseUs } from "@/src/marketing/why-choose-us";
 import { MissionVisionValues } from "../marketing/mission-vision-values";
 
 
@@ -10,8 +10,9 @@ export default function AboutPage() {
     <>
       <AboutHero />
       <CompanyStory />
+      <WhyChooseUs />
       <MissionVisionValues />
-      <Leadership />
+
       <CTASection />
     </>
   );

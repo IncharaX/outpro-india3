@@ -1,22 +1,22 @@
 export const serviceDetails = [
   {
-    title: "Web Development",
+    title: "Custom Website Development",
     description:
-      "High-performance websites and web applications built for scalability and growth.",
+      "Marketing websites, corporate websites and custom web platforms built for performance and growth.",
   },
   {
     title: "UI/UX Design",
     description:
-      "User-centered experiences designed to improve engagement and conversion.",
+      "User-focused digital experiences that improve usability, engagement and conversion.",
   },
   {
-    title: "Cloud Solutions",
+    title: "Full Stack Product Development",
     description:
-      "Reliable infrastructure, deployment pipelines and cloud optimization.",
+      "End-to-end product engineering using modern technologies and scalable architectures.",
   },
   {
-    title: "Digital Transformation",
+    title: "Business Automation",
     description:
-      "Technology strategies that streamline operations and unlock new opportunities.",
+      "Digital workflows and internal systems that reduce manual work and improve efficiency.",
   },
 ];

@@ -13,8 +13,7 @@ export function Surface({
   return (
     <div
       className={cn(
-        "rounded-3xl border bg-card",
-        "shadow-sm",
+        "rounded-3xl border bg-card shadow-sm transition-all duration-300",
         className
       )}
     >

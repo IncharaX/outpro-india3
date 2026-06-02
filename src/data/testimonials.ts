@@ -1,20 +1,20 @@
 export const testimonials = [
   {
     quote:
-      "The team delivered beyond expectations and significantly improved our digital presence.",
-    author: "Sarah Johnson",
-    company: "TechCorp",
+      "Outpro helped us launch our platform faster and with a significantly better user experience than we initially planned.",
+    author: "Founder",
+    company: "SaaS Startup",
   },
   {
     quote:
-      "Professional execution, clear communication, and measurable business results.",
-    author: "David Miller",
-    company: "Growth Labs",
+      "Professional communication, excellent execution and strong technical expertise throughout the project.",
+    author: "Operations Manager",
+    company: "Manufacturing Business",
   },
   {
     quote:
-      "A reliable technology partner that helped us scale confidently.",
-    author: "Emma Wilson",
-    company: "CloudWorks",
+      "The team understood our business requirements quickly and delivered a solution that exceeded expectations.",
+    author: "Director",
+    company: "Consulting Firm",
   },
 ];

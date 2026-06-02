@@ -21,7 +21,7 @@ export function NavLink({
       href={href}
       className={
         isActive
-          ? "text-sm font-semibold text-foreground"
+          ? "text-sm font-semibold text-primary"
           : "text-sm text-muted-foreground transition-colors hover:text-foreground"
       }
     >

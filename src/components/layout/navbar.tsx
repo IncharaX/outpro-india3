@@ -8,6 +8,8 @@ import { Container } from "./container";
 import { MobileNav } from "../../marketing/mobile-nav";
 import { siteConfig } from "@/src/constants/site-config";
 import { NavLink } from "@/src/marketing/nav-link";
+import { company } from "@/src/constants/company";
+
 
 export function Navbar() {
   return (
@@ -15,11 +17,17 @@ export function Navbar() {
       <Container>
         <div className="flex h-16 items-center justify-between">
           <Link
-            href="/"
-            className="font-semibold tracking-tight"
-          >
-            Outpro
-          </Link>
+        href="/"
+          className="flex flex-col"
+        >
+         <span>
+      {company.name}
+      </span>
+
+         <span>
+         {company.tagline}
+        </span>
+        </Link>
 
           <nav className="hidden items-center gap-8 md:flex">
             {siteConfig.navigation.map((item) => (
