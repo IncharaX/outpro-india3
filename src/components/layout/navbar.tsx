@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Container } from "./container";
 import { MobileNav } from "../../marketing/mobile-nav";
 import { siteConfig } from "@/src/constants/site-config";
+import { NavLink } from "@/src/marketing/nav-link";
 
 export function Navbar() {
   return (
@@ -22,13 +23,13 @@ export function Navbar() {
 
           <nav className="hidden items-center gap-8 md:flex">
             {siteConfig.navigation.map((item) => (
-              <Link
+              <NavLink
                 key={item.href}
                 href={item.href}
-                className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                // className="text-sm text-muted-foreground transition-colors hover:text-foreground"
               >
                 {item.label}
-              </Link>
+              </NavLink>
             ))}
           </nav>
 
