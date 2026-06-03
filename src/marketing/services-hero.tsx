@@ -4,21 +4,16 @@ import { Section } from "../components/layout/section";
 
 export function ServicesHero() {
   return (
-    <Section>
+    <Section className="bg-primary text-primary-foreground">
       <Container>
         <div className="max-w-4xl">
-          <p className="mb-6 text-sm font-semibold uppercase tracking-[0.2em] text-primary">
-            Services
+          <p className="mb-6 text-sm font-semibold uppercase tracking-[0.2em] opacity-80">
+            Capabilities
           </p>
 
           <h1 className="text-4xl font-semibold tracking-tight md:text-6xl">
-            Solutions designed to help businesses scale.
+            Services designed to help businesses move faster and grow smarter.
           </h1>
-
-          <p className="mt-8 max-w-2xl text-xl leading-relaxed text-muted-foreground">
-            We combine strategy, design and engineering to build digital
-            experiences that create measurable business outcomes.
-          </p>
         </div>
       </Container>
     </Section>
