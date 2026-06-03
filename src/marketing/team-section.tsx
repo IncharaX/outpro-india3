@@ -1,4 +1,3 @@
-
 import { Container } from "../components/layout/container";
 import { Section } from "../components/layout/section";
 import { Surface } from "./surface";
@@ -6,14 +5,17 @@ import { Surface } from "./surface";
 export function TeamSection() {
   const team = [
     {
+      number: "01",
       name: "Product Strategy Team",
       role: "Business Analysis & Planning",
     },
     {
+      number: "02",
       name: "Design Team",
       role: "UI/UX & Brand Experience",
     },
     {
+      number: "03",
       name: "Engineering Team",
       role: "Development & Deployment",
     },
@@ -43,13 +45,15 @@ export function TeamSection() {
               key={member.name}
               className="p-8"
             >
-              <div className="mb-6 aspect-square rounded-2xl bg-muted" />
+              <div className="mb-8 text-6xl font-bold text-primary/20">
+                {member.number}
+              </div>
 
               <h3 className="text-xl font-semibold">
                 {member.name}
               </h3>
 
-              <p className="mt-2 text-muted-foreground">
+              <p className="mt-3 text-muted-foreground">
                 {member.role}
               </p>
             </Surface>
