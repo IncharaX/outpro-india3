@@ -1,8 +1,8 @@
 import { AboutHero } from "@/src/marketing/about-hero";
-import { AboutStats } from "@/src/marketing/about-stats";
 import { CompanyStory } from "@/src/marketing/company-story";
+import { CompanyTimeline } from "@/src/marketing/company-timeline";
 import { CTASection } from "@/src/marketing/cta-section";
-
+import { FounderNote } from "@/src/marketing/founder-note";
 import { MissionVisionValues } from "@/src/marketing/mission-vision-values";
 import { WhyChooseUs } from "@/src/marketing/why-choose-us";
 import { Metadata } from "next";
@@ -15,11 +15,11 @@ export default function AboutPage() {
   return (
     <>
       <AboutHero />
-      <AboutStats />
+      <CompanyTimeline />
+      <FounderNote />
       <CompanyStory />
       <WhyChooseUs />
       <MissionVisionValues />
-
       <CTASection />
     </>
   );

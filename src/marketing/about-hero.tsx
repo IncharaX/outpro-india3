@@ -4,20 +4,16 @@ import { Section } from "../components/layout/section";
 
 export function AboutHero() {
   return (
-    <Section>
+    <Section className="bg-muted/30">
       <Container>
-        <div className="max-w-4xl">
-          <p className="mb-6 text-sm font-semibold uppercase tracking-[0.2em] text-primary">
-            About Outpro
+        <div className="max-w-3xl">
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-primary">
+            Our Story
           </p>
 
-          <h1 className="text-4xl font-semibold tracking-tight md:text-6xl">
-            We help ambitious businesses transform ideas into scalable digital products and platforms.
+          <h1 className="text-3xl font-semibold tracking-tight md:text-5xl">
+            Outpro was founded to help businesses turn ideas into scalable digital products.
           </h1>
-
-          <p className="mt-8 max-w-2xl text-xl leading-relaxed text-muted-foreground">
-            Founded on the belief that technology should create measurable business value, we partner with organizations to design, build and scale modern digital experiences.
-          </p>
         </div>
       </Container>
     </Section>
