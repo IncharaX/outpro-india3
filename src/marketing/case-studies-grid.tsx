@@ -15,6 +15,7 @@ export function CaseStudiesGrid() {
               title={study.title}
               category={study.category}
               result={study.result}
+              image={study.image}
             />
           ))}
         </div>

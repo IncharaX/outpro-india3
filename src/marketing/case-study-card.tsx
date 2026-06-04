@@ -1,25 +1,35 @@
 import { Surface } from "./surface";
+import Image from "next/image";
 
 interface CaseStudyCardProps {
   title: string;
   category: string;
   result: string;
+  image: string;
 }
 
 export function CaseStudyCard({
   title,
   category,
   result,
-}: CaseStudyCardProps) {
+  image,
+}: CaseStudyCardProps)  {
   return (
     <Surface className="
     overflow-hidden
-hover:-translate-y-2
-hover:shadow-xl
-transition-all
+    hover:-translate-y-2
+    hover:shadow-xl
+    transition-all
 duration-300
 ">
-      <div className="aspect-video bg-muted" />
+      <div className="relative aspect-video overflow-hidden rounded-t-3xl">
+  <Image
+    src={image}
+    alt={title}
+    fill
+    className="object-cover transition-transform duration-300 hover:scale-105"
+  />
+</div>
 
       <div className="p-8">
         <p className="text-sm font-medium text-primary">
