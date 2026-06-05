@@ -15,13 +15,9 @@ export function CaseStudyCard({
   image,
 }: CaseStudyCardProps)  {
   return (
-    <Surface className="
-    overflow-hidden
-    hover:-translate-y-2
-    hover:shadow-xl
-    transition-all
-duration-300
-">
+    <Surface
+  className="overflow-hidden hover:-translate-y-2 hover:shadow-xl transition-all duration-300"
+>
       <div className="relative aspect-video overflow-hidden rounded-t-3xl">
   <Image
     src={image}
