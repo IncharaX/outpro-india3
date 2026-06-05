@@ -1,7 +1,27 @@
 import { Surface } from "./surface";
 import Image from "next/image";
 
+interface CaseStudyCardProps {
+  title: string;
+  category: string;
+  result: string;
+  image: string;
+}
 
+export function CaseStudyCard({
+  title,
+  category,
+  result,
+  image,
+}: CaseStudyCardProps)  {
+  return (
+    <Surface className="
+    overflow-hidden
+    hover:-translate-y-2
+    hover:shadow-xl
+    transition-all
+duration-300
+">
       <div className="relative aspect-video overflow-hidden rounded-t-3xl">
   <Image
     src={image}
